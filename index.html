@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        #navbar {
+            position: sticky;
+            top: 0px;
+            left: 0px;
+            height: 50px;
+            width: 100%;
+            background-color: grey;
+        }
+        #welcome-section{
+            height: 100vh;
+        }
+        @media (max-width: 100px) {
+                h2 {
+                    background-color: darkgrey;
+                }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <nav id="navbar">
+            <header>Navigation</header>
+            <a href="#welcome-section" class="nav-link">Welcome</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#social" class="nav-link">Social</a>
+        </nav>
+
+        <section id="welcome-section">
+            <h1>Kevin Wolbart</h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, odio sunt cum, maiores sed veritatis voluptatibus laboriosam asperiores at libero eius explicabo facere voluptates sit, dignissimos optio officiis totam ipsam. Tempora porro, perspiciatis facilis doloremque delectus temporibus hic error ducimus minus autem nesciunt neque at aspernatur laborum illo! Consequuntur, dignissimos!
+            </p>
+        </section>
+
+        <section id="projects">
+            <h1 class="project-tile">Projects</h1>
+            <div id="Tribute-Page">
+                <a href="https://kevinwolbart.github.io/TributeProject.html/" target="_blank"><h2 class="project-title">Tribute Page</h2></a>
+                <p></p>
+            </div>
+            <div id="Survey-Form">
+                <a href="https://kevinwolbart.github.io/SurveyForm/" target="_blank"><h2 class="project-title">Survey Form</h2></a>
+                <p></p>
+            </div>
+            <div id="Landing-Page">
+                <a href="https://kevinwolbart.github.io/LandingPage/" target="_blank"><h2 class="project-title">Landing Page</h2></a>
+                <p></p>
+            </div>
+            <div id="Technical-Documentation-Page">
+                <a href="https://kevinwolbart.github.io/Technical-Documentation-Page/" target="_blank"><h2 class="project-title">Technical Documentation Page</h2></a>
+                <p></p>
+            </div>
+        </section>
+
+        <section id="social">
+            <h1>Social Networks</h1>
+            <div class="networks">
+                <a href="https://github.com/KevinWolbart/" target="_blank" id="profile-link"><h2>GitHub</h2></a>
+            </div>
+            <div class="networks">
+                <a href="https://www.linkedin.com/in/kevin-wolbart-596945198/" target="_blank"><h2>LinkedIn</h2></a>
+            </div>
+            <div class="networks">
+                <a href="https://twitter.com/KevinWolbart" target="_blank"><h2>Twitter</h2></a>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
